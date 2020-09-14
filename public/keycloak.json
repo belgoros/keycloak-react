@@ -1,8 +1,8 @@
 {
-  "realm": "lisa_realm",
+  "realm": "MyDemo",
   "auth-server-url": "http://localhost:8080/auth/",
   "ssl-required": "external",
-  "resource": "lisa-react-client",
+  "resource": "my-react-client",
   "public-client": true,
   "confidential-port": 0
 }
