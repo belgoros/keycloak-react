@@ -32,8 +32,6 @@ docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.i
 - start the app with `npm start`
 - you browser should open automatically at `localhost:3000` at the public accessed page
 - click on the `secured` link of the page, - you should be redirected to the Keycloak login page
-- log in ias `John` with the password you specified earlier (`john 123`)
+- log in ias `John` with the password you specified earlier (`john123`)
 - you should see the content pf the secured page
 - clicking the logout button forces you to have to log in again, the next time you try to access the Secured component.
-
-
