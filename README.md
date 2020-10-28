@@ -22,7 +22,7 @@ The application has just 2 URLs:
 docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:11.0.2
 ```
 
-- go to the Keycloak Admin Console and login with the username and password you created earlier.
+- go to the Keycloak Admin Console and login with the username and password you passed in earlier when starting the Keycloak as a Docker container (`admin/admin`).
 - create `MyDemo` realm
 - create a User `John` with password `john123`.
 - create a Client `my-react-client`, choose `openid-connect` as Client Protocol and set the Root URL to `http://localhost:3000`
